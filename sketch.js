@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 
 
 var divison1, divison2,divison3,divison4,divison5;
-var particle1,particle2,particle3,particle4,particle5,particle6,particle7;
+var particle1,particle2,particle3,particle4,particle5,particle6,particle7,particle8,particle9,particle10;
 var hlo1,hlo2,hlo3,hlo4,hlo5,hlo6,hlo7,hlo8,hlo9,hlo10;
 var hlo11,hlo12,hlo13,hlo14,hlo15,hlo16,hlo17,hlo18,hlo19,hlo20;
 var hlo21,hlo22,hlo23,hlo24,hlo25,hlo26,hlo27,hlo28,hlo29,hlo30;
@@ -24,13 +24,16 @@ function setup(){
      divison3 = new Divison(115,580,20,250);
       divison4= new Divison(10,580,20,250);
        divison5 = new Divison(425,580,20,250);
-particle1=new Particle(200,100,10);
-particle2=new Particle(170,100,10);
-particle3=new Particle(220,100,10);
-particle4=new Particle(120,100,10);
-particle5=new Particle(240,100,10);
-particle6=new Particle(140,100,10);
-particle7=new Particle(260,100,10);
+particle1=new Particle(random(30,400),100,10);
+particle2=new Particle(random(30,400),100,10);
+particle3=new Particle(random(30,400),100,10);
+particle4=new Particle(random(30,400),100,10);
+particle5=new Particle(random(30,400),100,10);
+particle6=new Particle(random(30,400),100,10);
+particle7=new Particle(random(30,400),100,10);
+particle8=new Particle(random(30,400),100,10);
+particle9=new Particle(random(30,400),100,10);
+particle10=new Particle(random(30,400),100,10);
 hlo1=new Hlo(10,150,10);
 hlo2=new Hlo(90,150,10);
 hlo3=new Hlo(170,150,10);
@@ -84,6 +87,10 @@ function draw(){
       particle5.display();
       particle6.display();
       particle7.display();
+       particle8.display();
+        particle9.display();
+         particle10.display();
+
       hlo1.display();
        hlo2.display();
         hlo3.display();
